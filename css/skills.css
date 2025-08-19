@@ -1,0 +1,287 @@
+.skills{
+    background: var(--bg-color-b);
+    color: var(--text-color);
+}
+.skills h2{
+    margin-bottom: 5rem;
+    color: var(--text-color);
+}
+.skills .skills-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.skills-category-container{
+    width: 500px;
+    margin: 60px auto;
+    background-color: white;
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skills-category-container h3{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.skills-category-container li{
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 10px;
+}
+.skills-category-container li h4{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.bar{
+    background: whitesmoke;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: var(--skills-bar-color);
+}
+
+.python{
+    width: var(--skills-python);
+    animation: python 3s;
+}
+.cpp{
+    width: var(--skills-cpp);
+    animation: cpp 3s;
+}
+.c{
+    width: var(--skills-c);
+    animation: c 3s;
+}
+.dockerization{
+    width: var(--skills-dockerization);
+    animation: dockerization 3s;
+}
+.rasa{
+    width: var(--skills-rasa);
+    animation: rasa 3s;
+}
+.aws_deployment{
+    width: var(--skills-aws_deployment);
+    animation: aws_deployment 3s;
+}
+.llm{
+    width: var(--skills-llm);
+    animation: llm 3s;
+}
+.rl{
+    width: var(--skills-rl);
+    animation: rl 3s;
+}
+.gan{
+    width: var(--skills-gan);
+    animation: gan 3s;
+}
+.gnn{
+    width: var(--skills-gnn);
+    animation: gnn 3s;
+}
+.bitbucket{
+    width: var(--skills-bitbucket);
+    animation: bitbucket 3s;
+}
+.postgresql{
+    width: var(--skills-postgresql);
+    animation: postgresql 3s;
+}
+.sql{
+    width: var(--skills-sql);
+    animation: sql 3s;
+}
+.neo4j{
+    width: var(--skills-neo4j);
+    animation: neo4j 3s;
+}
+.redis{
+    width: var(--skills-redis);
+    animation: redis 3s;
+}
+.rag{
+    width: var(--skills-rag);
+    animation: rag 3s;
+}
+.graph_algorithms{
+    width: var(--skills-graph_algorithms);
+    animation: graph_algorithms 3s;
+}
+.neo4j{
+    width: var(--skills-neo4j);
+    animation: neo4j 3s;
+}
+.cypher{
+    width: var(--skills-cypher);
+    animation: cypher 3s;
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-python);
+    }
+}
+@keyframes cpp{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-cpp);
+    }
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-c);
+    }
+}
+@keyframes dockerization{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-dockerization);
+    }
+}
+@keyframes rasa{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-rasa);
+    }
+}
+@keyframes aws_deployment{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-aws_deployment);
+    }
+}
+@keyframes llm{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-llm);
+    }
+}
+@keyframes rl{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-rl);
+    }
+}
+@keyframes gan{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-gan);
+    }
+}
+@keyframes gnn{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-gnn);
+    }
+}
+@keyframes bitbucket{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-bitbucket);
+    }
+}
+@keyframes postgresql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-postgresql);
+    }
+}
+@keyframes sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-sql);
+    }
+}
+@keyframes neo4j{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-neo4j);
+    }
+}
+@keyframes redis{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-redis);
+    }
+}
+@keyframes rag{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-rag);
+    }
+}
+@keyframes graph_algorithms{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-graph_algorithms);
+    }
+}
+@keyframes neo4j{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-neo4j);
+    }
+}
+@keyframes cypher{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: var(--skills-cypher);
+    }
+}
